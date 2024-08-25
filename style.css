@@ -38,6 +38,16 @@ body {
     font-size: 16px;
 }
 
+#unit-toggle {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#unit-toggle label {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
 .button {
     color: black;
     height: 48px;

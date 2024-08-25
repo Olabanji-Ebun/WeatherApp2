@@ -13,6 +13,16 @@
             <input type="text" id="location-input" placeholder="Enter location" required>
             <button type="submit" class="button">Get Weather</button>
         </form>
+
+
+        <div id="unit-toggle">
+            <label for="unit-select">Select Unit:</label>
+            <select id="unit-select">
+                <option value="metric" selected>Celsius (°C)</option>
+                <option value="imperial">Fahrenheit (°F)</option>
+            </select>
+        </div>
+
         <div id="weather-info"></div>
         <div id="loading" style="display: none;">Loading...</div>
     </div>
