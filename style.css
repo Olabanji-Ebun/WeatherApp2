@@ -48,6 +48,16 @@ body {
     font-size: 16px;
 }
 
+#unit-select {
+    border: none;
+    gap: 16px;
+}
+
+#unit-select:hover {
+    border: 5px solid rgba(3, 180, 240, 0.993);
+}
+
+
 .button {
     color: black;
     height: 48px;
